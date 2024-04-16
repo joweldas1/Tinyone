@@ -1,0 +1,266 @@
+/* basic setup start */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    --font-1: 'Open Sans', sans-serif;
+    --font-2: 'PT Sans', sans-serif;
+    --color-1:#fbdb00;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:  'PT Sans', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container{
+    max-width:75% !important;
+}
+/* basic setup end */
+
+
+/* NAVBAR FROM BOOTSTRAPS--- START */
+
+/* navbar toggoler */
+button .navbar-toggler{
+    height: 20px;
+    width: 30px;
+    background: #000;
+}
+.navbar-toggler-icon{
+
+}
+
+.navbar{
+    background: var(--color-1);
+
+}
+.logo-img{
+    width: 85px;
+    height: 30px;
+}
+.nav-link{
+    color: black !important;
+    font-family: var(--font-2) !important;
+    font-weight:800;
+    margin-left: 25px;
+}
+.nav-link:hover{
+    color: white!important;
+}
+/* NAVBAR FROM BOOTSTRAPS--- END */
+
+
+/* carousel start */
+
+
+
+#carouselExampleIndicators{
+    /* margin-bottom: 70px;
+    padding-bottom:80px;
+    color: #fbdb00; */
+}
+
+/* .c-text{
+    background: black;
+    width: 400px;
+    text-align: center;
+} */
+.c-icon li a{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+.hero-btn{
+    background:transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    transition: 1.5s;
+    padding: 5px 5px;
+}
+.hero-btn:hover i{color: black;}
+
+.hero-btn i{
+    color: white;
+    transition: 1.5s;
+}
+.hero-btn:hover{
+    background:white;
+    border: 2px solid black;
+    color: black;
+}
+    
+.second-part{
+    background:#fbdb00;
+    height:75vh;
+}
+
+
+  .btn-r{
+      height: 50px;
+      width: 50px;
+      color: aqua;
+    }
+
+    .carousel-indicators [data-bs-target]{
+        height: 15px !important;
+        width: 15px !important;
+        border-radius: 50%;
+        margin-left: 10px !important;
+        
+    }
+    /* carousel End */
+
+    /* feature part start */
+    .feature{
+        margin: 80px 0;
+    }
+
+    .feature-head h2{
+        font-size: 30px;
+        font-weight: 800;
+        font-family: var(--font-2);
+    }
+    .feature-head p{
+        font-weight: 500;
+        letter-spacing: 1.1px;
+        padding-top: 10px;
+    }
+    .feature-icon i{
+        font-size: 27px;
+    }
+    .feature-text h4{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: var(--font-2);
+    }
+
+.feature-text p{
+    font-family: var(--font-1);
+    font-size: 15px;
+}
+    /* feature part end */
+
+
+
+/* Footer part start */
+.footer{
+    min-height: fit-content;
+    width: 100%;
+    background:#010101;
+    padding: 50px 0;
+        
+}
+.footer-con{
+    text-align: center
+}
+.footer-con h2{
+    font-size: 32px;
+    color: #fbdb00;
+    font-family:var(--font-1);
+    font-weight: bold;
+}
+.footer-con p{
+    color: #898989;
+    font-size: 20px;
+    font-family:var(--font-1);
+    font-weight:normal;
+    padding: 10px 0 20px 0;
+}
+
+.footer-in{
+    width: 400px;
+    height: 40px;
+    font-family:var(--font-1);
+    font-size: 13px;
+    /* border: 2px solid rgb(234, 250, 13); */
+}
+.footer-in::placeholder{
+    padding-left: 20px;
+}
+.footer-in:focus{
+    padding-left: 20px;
+    color:blue;
+}
+
+.footer-btn{
+        padding: 10px 20px;
+        background: var(--color-1);
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+
+    }
+.footer-btn:hover {
+    background-color: white !important;
+    color: black;
+    border: 1px solid #ffffff;
+}
+
+.temp-icon li {
+    display: inline-block;
+    padding: 0 20px 0 20px;
+}
+
+.footer-icon{
+    padding: 40px 0 45px 0;
+}
+.footer-icon ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background: var(--color-1);
+    border-radius: 10%;
+}
+.adress , .contact-mail , .contact-num , .footer-item a{
+    color: white;
+}
+/* Footer part end */
+
+/* caursol idden pRT RESPONISVE */
+.hidden-carousel{
+    display: none;
+}
+.secon-part{
+   height: 650px;
+    background:#fbdb00;
+}
+.secon-con h4{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.secon-p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+.secon-p-2{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.secon-img{
+    text-align: center;
+    margin: 20px 0;
+    min-height:fit-content;
+}

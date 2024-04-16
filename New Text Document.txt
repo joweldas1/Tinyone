@@ -1,0 +1,14 @@
+Image->
+Font->Done
+font awesome->
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-pinterest"></i>
+<i class="fa-brands fa-behance"></i>
+<i class="fa-solid fa-cloud-arrow-down"></i>
+<i class="fa-brands fa-windows"></i>
+<i class="fa-brands fa-apple"></i>
+<i class="fa-regular fa-tablet"></i>
+Color->  0872b9  , 5bc5f4
+bootstrps->
